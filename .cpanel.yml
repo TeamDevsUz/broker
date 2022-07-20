@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/public_html/ibroker-vue.skybox.uz
+    - /bin/cp -R * $DEPLOYPATH
+    
