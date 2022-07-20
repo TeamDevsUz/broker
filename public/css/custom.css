@@ -1,0 +1,161 @@
+/* 
+This is custom css
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --vs-primary: "115,103,240"
+}
+body{
+    background-color: #f2f4f6;
+}
+
+.padding-y50{
+    padding: 50px 0;
+}
+
+.BbZrX {
+    margin-right: 0.5rem;
+}
+
+.margin-top70{
+    margin-top: 70px;
+}
+
+.margin-top50{
+    margin-top: 80px;
+}
+
+.flex-1 {
+    flex: 1 1 0% !important;
+}
+
+.w-full {
+    width: 100% !important;
+}
+
+.mr-8 {
+    margin-right: 2rem !important;
+}
+
+.rounded {
+    border-radius: 0.25rem !important;
+}
+
+.w-24 {
+    width: 6rem !important;
+}
+
+.w-5 {
+    width: 1.25rem !important;
+}
+
+.h-24 {
+    height: 6rem !important;
+}
+
+.h-5 {
+    height: 1.25rem !important;
+}
+
+.text-lg {
+    font-size: 1.125rem !important;
+}
+.font-medium {
+    font-weight: 500 !important;
+}
+/* ****************************************************************************** */
+/* .sub-menu .sub-menu-item ul li a {
+    color: #000;
+    text-decoration: none;
+} */
+
+/* .sub-menu h4{
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+} */
+/* .sub-menu ul{
+    height: unset !important;
+} */
+/* .sub-menu ul li{
+    text-transform: capitalize;
+    padding: 0.2rem 0;
+    margin: 0.2rem 0;
+    font-size: 0.95rem;
+} */
+/* .sub-menu ul li a{
+    opacity: 0.8;
+    transition: all 0.5s ease;
+} */
+
+/* .sub-menu ul li a:hover{
+    padding-left: 14px;
+    opacity: 0.9;
+    cursor: pointer;
+} */
+.sub-menu{
+    display: none;
+}
+
+/* .sub-menu-item{
+    padding-left: 1.2rem;
+} */
+
+/* .sub-menu-item:nth-child(3){
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+} */
+.sub-menu-item:nth-child(3) h2{
+    text-transform: capitalize;
+    margin: 1.5rem 0;
+}
+.sub-menu-item:nth-child(3) .btn{
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.sub-menu-item:nth-child(3) .btn:hover{
+    background: transparent;
+    color: #000;
+}
+
+.sub-menu-item:nth-child(4){
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+/* *********************************************************** */
+/* MEDIA QUERIES */
+@media screen and (min-width: 992px){
+    .navigation_menu > li:hover .sub-menu {
+        display: grid!important;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 15px 5rem;
+    }
+    
+    .sub-menu{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 100%;
+        background: #f8f8f8;
+    }
+}
